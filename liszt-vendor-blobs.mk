@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/huawei/mozart/proprietary
+VENDOR_PATH := vendor/huawei/liszt/proprietary
 
 # Blobs
 PRODUCT_COPY_FILES += \

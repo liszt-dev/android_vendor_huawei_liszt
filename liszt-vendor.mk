@@ -14,4 +14,4 @@
 # limitations under the License.
 
 # Inherit vendor blobs
-$(call inherit-product, vendor/huawei/mozart/mozart-vendor-blobs.mk)
+$(call inherit-product, vendor/huawei/liszt/liszt-vendor-blobs.mk)
