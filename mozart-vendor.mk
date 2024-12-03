@@ -13,11 +13,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-    hw_healthd \
-    oeminfo_nvm_server \
-    teecd
-
 # Inherit vendor blobs
 $(call inherit-product, vendor/huawei/mozart/mozart-vendor-blobs.mk)
