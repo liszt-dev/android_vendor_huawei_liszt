@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/miniisp/TBM_Latour2.bin:/system/miniisp/TBM_Latour2.bin \
     $(VENDOR_PATH)/miniisp/chip_det.bin:/system/miniisp/chip_det.bin \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_test_hw_apsta.bin:/system/vendor/firmware/fw_bcm4339_test_hw_apsta.bin \
-    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:/system/vendor/firmware/nvram4339_hw_mozart_l.txt \
+    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:/system/vendor/firmware/nvram4339_hw_liszt.txt \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_hw.bin:/system/vendor/firmware/fw_bcm4339_hw.bin \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_apsta_hw.bin:/system/vendor/firmware/fw_bcm4339_apsta_hw.bin \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:/system/vendor/firmware/nvram4339_hw.txt \
