@@ -379,6 +379,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libbalong-ril.so:/system/lib/libbalong-ril.so \
     $(VENDOR_PATH)/lib/libbalong-ril-1.so:/system/lib/libbalong-ril-1.so \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:/system/lib/libbalong_audio_ril.so \
+    $(VENDOR_PATH)/lib/libreference-ril.so:/system/lib/libreference-ril.so \
+    $(VENDOR_PATH)/lib/libril.so:/system/lib/libril.so \
+    $(VENDOR_PATH)/lib/libvia-ril.so:/system/lib/libvia-ril.so \
     $(VENDOR_PATH)/lib64/libbalong-ril.so:/system/lib64/libbalong-ril.so \
     $(VENDOR_PATH)/lib64/libbalong-ril-1.so:/system/lib64/libbalong-ril-1.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:/system/lib64/libbalong_audio_ril.so \
