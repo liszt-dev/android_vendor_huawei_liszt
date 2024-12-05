@@ -407,4 +407,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/TBM_Latour.bin:/system/TBM_Latour.bin \
     $(VENDOR_PATH)/isp.bin:/system/isp.bin \
     $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
-    $(VENDOR_PATH)/ons.bin:/system/ons.bin
+    $(VENDOR_PATH)/ons.bin:/system/ons.bin \
+    $(VENDOR_PATH)/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+    $(VENDOR_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    $(VENDOR_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+    $(VENDOR_PATH)/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+    $(VENDOR_PATH)/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+    $(VENDOR_PATH)/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+    $(VENDOR_PATH)/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
