@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaes.so \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstlport.so \
     $(VENDOR_PATH)/lib64/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libion.so \
@@ -26,6 +27,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaes.so \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.hi3635.so \
+    $(VENDOR_PATH)/lib/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
     $(VENDOR_PATH)/lib/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion.so \
