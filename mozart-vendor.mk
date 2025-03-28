@@ -11,26 +11,258 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/egl/libGLES_mali.so \
     $(VENDOR_PATH)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/egl/libGLES_mali.so \
     $(VENDOR_PATH)/lib64/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo.so \
+    $(VENDOR_PATH)/lib64/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtfa9895.so \
     $(VENDOR_PATH)/lib64/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
+    $(VENDOR_PATH)/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_custom.so \
     $(VENDOR_PATH)/lib64/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaes.so \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.primary.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
+    $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
+    $(VENDOR_PATH)/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
     $(VENDOR_PATH)/lib64/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstlport.so \
     $(VENDOR_PATH)/lib64/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libion.so \
+    $(VENDOR_PATH)/lib64/libmax98925.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmax98925.so \
     $(VENDOR_PATH)/lib64/libteec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteec.so \
     $(VENDOR_PATH)/lib64/libnvme.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnvme.so \
     $(VENDOR_PATH)/lib64/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo_jni.so \
     $(VENDOR_PATH)/lib/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo.so \
+    $(VENDOR_PATH)/lib/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtfa9895.so \
     $(VENDOR_PATH)/lib/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbalong_audio_ril.so \
+    $(VENDOR_PATH)/lib/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_custom.so \
     $(VENDOR_PATH)/lib/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaes.so \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.hi3635.so \
+    $(VENDOR_PATH)/lib/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.hi3635.so \
+    $(VENDOR_PATH)/lib/hw/hw_af_extend.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hw_af_extend.default.so \
     $(VENDOR_PATH)/lib/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oeminfo_interface.so \
+    $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
+    $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioeffectutil.so \
+    $(VENDOR_PATH)/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     $(VENDOR_PATH)/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
     $(VENDOR_PATH)/lib/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion.so \
+    $(VENDOR_PATH)/lib/libhuaweiaudioalgoservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioalgoservice.so \
+    $(VENDOR_PATH)/lib/libmax98925.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmax98925.so \
     $(VENDOR_PATH)/lib/libteec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteec.so \
+    $(VENDOR_PATH)/lib/libhuaweiprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiprocessing.so \
+    $(VENDOR_PATH)/lib/libswsprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libswsprocessing.so \
     $(VENDOR_PATH)/lib/libnvme.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnvme.so \
-    $(VENDOR_PATH)/lib/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo_jni.so
+    $(VENDOR_PATH)/lib/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo_jni.so \
+    $(VENDOR_PATH)/etc/srs/models.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/models.txt \
+    $(VENDOR_PATH)/etc/srs/srsmodels.lic:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srsmodels.lic \
+    $(VENDOR_PATH)/etc/srs/srs_processing.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srs_processing.cfg \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/ascend_algorithm_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/ascend_algorithm_default.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/algorithm/algorithm_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACEES_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACEES_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_hi3635fpga.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_hi3635fpga.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_PLK.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_PLK.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_default.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_UL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_UL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GEMINI_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GEMINI_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_CARRERA.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_CARRERA.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_GRACEES.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_GRACEES.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_LISZT.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_LISZT.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_TL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_TL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_hi3635.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_hi3635.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_L02_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_L02_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_hi3635fpga.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_hi3635fpga.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACEES_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACEES_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_GRACE.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_GRACE.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_LITTLEBOY.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_LITTLEBOY.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_LITTLEBOY.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_LITTLEBOY.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACEES_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACEES_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_CARRERA.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_CARRERA.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_UL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_UL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_L01_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_L01_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_default.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_hi3635.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_hi3635.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_GEMINI.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_GEMINI.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_GRACE.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_GRACE.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_MOZART_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_MOZART_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_LISZT.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_LISZT.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_AL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_AL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_PLK.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_PLK.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_hi3635cs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_hi3635cs.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_LISZT_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_LISZT_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_GRACEES.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_GRACEES.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_TUGL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_TUGL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_DAVINCE.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_DAVINCE.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_MOZART.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_MOZART.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_UL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_UL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_hi3635cs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_hi3635cs.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_DAVINCE_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_DAVINCE_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_GEMINI.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_paths_GEMINI.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_MOZART.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_MOZART.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_DAVINCE_CLG_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_DAVINCE_CLG_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_DAVINCE.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/pop_seq_DAVINCE.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACEES_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACEES_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_CARRERA_CLG_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_CARRERA_CLG_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_hi3635fpga_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_hi3635fpga_normal.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_CLG_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_CLG_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_CL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_PLK_CL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_GRACE_TUGL_ce.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_GRACE_TUGL_ce.xml \
+    $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/hi6402/mixer_volumes_default.xml \
+    $(VENDOR_PATH)/etc/audio/tpa2028/tpa2028_default.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/tpa2028/tpa2028_default.cfg \
+    $(VENDOR_PATH)/etc/audio/tpa2028/tpa2028_LISZT.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/tpa2028/tpa2028_LISZT.cfg \
+    $(VENDOR_PATH)/etc/audio/nxp/Tfa9895_default.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/nxp/Tfa9895_default.cnt \
+    $(VENDOR_PATH)/etc/audio/nxp/Tfa9895_MOZART_coefficient.config:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/nxp/Tfa9895_MOZART_coefficient.config \
+    $(VENDOR_PATH)/etc/audio/nxp/Tfa9895_MOZART_sec.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/nxp/Tfa9895_MOZART_sec.cnt \
+    $(VENDOR_PATH)/etc/audio/nxp/Tfa9895_MOZART.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/nxp/Tfa9895_MOZART.cnt \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_default.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/mbdrc/mbdrc_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/mbdrc/mbdrc_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_default.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACEES_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACEES_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACEES_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACEES_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_unicomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_unicomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_telecomiot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_telecomiot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_GRACEES_cmcciot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_GRACEES_cmcciot.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/modem/modem_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/modem/modem_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/tracklogconfig/codectracklog.config:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/tracklogconfig/codectracklog.config \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_default.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/maxim/maxim_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/maxim/maxim_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/sws/sws_LISZT_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/sws/sws_LISZT_normal.xml \
+    $(VENDOR_PATH)/etc/audio/sws/sws_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/sws/sws_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/sws/sws_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/sws/sws_default.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_L01_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_L01_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_CARRERA_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_CARRERA_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_DAVINCE_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_DAVINCE_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_L02_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_L02_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_GRACE_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GRACE_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_DAVINCE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_DAVINCE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_TL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_TL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_MOZART_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_CARRERA_TUGL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_CARRERA_TUGL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_GRACEES_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GRACEES_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_hi3635cs_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_hi3635cs_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_GRACE_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GRACE_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_CL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_CL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_PLK_AL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_PLK_AL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_GEMINI_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GEMINI_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_default.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_CARRERA_UL_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_LITTLEBOY_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GRACE_CLG_normal.xml \
+    $(VENDOR_PATH)/etc/audio/dts/dts_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_hi3635_normal.xml \
+    $(VENDOR_PATH)/etc/sws/sws_config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/sws/sws_config.txt
