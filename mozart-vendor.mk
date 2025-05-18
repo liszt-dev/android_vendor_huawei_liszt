@@ -9,7 +9,10 @@ VENDOR_PATH := vendor/huawei/mozart/proprietary
 # Blobs
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libbt-vendor.so \
+    $(VENDOR_PATH)/vendor/lib64/hw/sensorcaps.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/hw/sensorcaps.hi3635.so \
     $(VENDOR_PATH)/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/egl/libGLES_mali.so \
+    $(VENDOR_PATH)/vendor/lib64/sensorhub.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/sensorhub.hi3635.so \
+    $(VENDOR_PATH)/vendor/lib/hw/sensorcaps.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/hw/sensorcaps.hi3635.so \
     $(VENDOR_PATH)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/egl/libGLES_mali.so \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/nvram4339_hw.txt \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_hw.bin:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/fw_bcm4339_hw.bin \
