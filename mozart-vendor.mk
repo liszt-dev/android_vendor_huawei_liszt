@@ -31,9 +31,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_custom.so \
     $(VENDOR_PATH)/lib64/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaes.so \
+    $(VENDOR_PATH)/lib64/hw/flp.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/flp.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.primary.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/gps.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
@@ -71,6 +73,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/etc/srs/models.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/models.txt \
     $(VENDOR_PATH)/etc/srs/srsmodels.lic:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srsmodels.lic \
     $(VENDOR_PATH)/etc/srs/srs_processing.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srs_processing.cfg \
+    $(VENDOR_PATH)/etc/clatd.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/clatd.conf \
     $(VENDOR_PATH)/etc/audio/algorithm/algorithm_CARRERA_UL_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_CARRERA_UL_normal.xml \
     $(VENDOR_PATH)/etc/audio/algorithm/algorithm_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_hi3635_normal.xml \
     $(VENDOR_PATH)/etc/audio/algorithm/algorithm_MOZART_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/algorithm/algorithm_MOZART_normal.xml \
@@ -280,4 +283,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/etc/audio/dts/dts_LITTLEBOY_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_LITTLEBOY_normal.xml \
     $(VENDOR_PATH)/etc/audio/dts/dts_GRACE_CLG_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_GRACE_CLG_normal.xml \
     $(VENDOR_PATH)/etc/audio/dts/dts_hi3635_normal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio/dts/dts_hi3635_normal.xml \
-    $(VENDOR_PATH)/etc/sws/sws_config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/sws/sws_config.txt
+    $(VENDOR_PATH)/etc/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf \
+    $(VENDOR_PATH)/etc/sws/sws_config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/sws/sws_config.txt \
+    $(VENDOR_PATH)/etc/gps4752config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/gps4752config.xml \
+    $(VENDOR_PATH)/bin/gpsdaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsdaemon \
+    $(VENDOR_PATH)/bin/glgps4752:$(TARGET_COPY_OUT_SYSTEM)/bin/glgps4752
