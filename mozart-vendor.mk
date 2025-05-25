@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo.so \
     $(VENDOR_PATH)/lib64/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtfa9895.so \
     $(VENDOR_PATH)/lib64/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_custom.so \
     $(VENDOR_PATH)/lib64/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaes.so \
@@ -40,8 +41,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
+    $(VENDOR_PATH)/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
     $(VENDOR_PATH)/lib64/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstlport.so \
     $(VENDOR_PATH)/lib64/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libion.so \
+    $(VENDOR_PATH)/lib64/libvpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvpp.so \
+    $(VENDOR_PATH)/lib64/libomx_vxd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxd.so \
     $(VENDOR_PATH)/lib64/libmax98925.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmax98925.so \
     $(VENDOR_PATH)/lib64/libteec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteec.so \
     $(VENDOR_PATH)/lib64/libnvme.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnvme.so \
@@ -49,6 +53,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo.so \
     $(VENDOR_PATH)/lib/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtfa9895.so \
     $(VENDOR_PATH)/lib/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomx_vxe.so \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_custom.so \
     $(VENDOR_PATH)/lib/libaes.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaes.so \
@@ -61,8 +66,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioeffectutil.so \
     $(VENDOR_PATH)/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
+    $(VENDOR_PATH)/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
     $(VENDOR_PATH)/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
     $(VENDOR_PATH)/lib/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion.so \
+    $(VENDOR_PATH)/lib/libvpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvpp.so \
+    $(VENDOR_PATH)/lib/libomx_vxd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomx_vxd.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioalgoservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioalgoservice.so \
     $(VENDOR_PATH)/lib/libmax98925.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmax98925.so \
     $(VENDOR_PATH)/lib/libteec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteec.so \
@@ -70,6 +78,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libswsprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libswsprocessing.so \
     $(VENDOR_PATH)/lib/libnvme.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnvme.so \
     $(VENDOR_PATH)/lib/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo_jni.so \
+    $(VENDOR_PATH)/etc/topazhp.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/topazhp.cfg \
     $(VENDOR_PATH)/etc/srs/models.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/models.txt \
     $(VENDOR_PATH)/etc/srs/srsmodels.lic:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srsmodels.lic \
     $(VENDOR_PATH)/etc/srs/srs_processing.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/srs/srs_processing.cfg \
