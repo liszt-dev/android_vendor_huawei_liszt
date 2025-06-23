@@ -1,4 +1,4 @@
-## Proprietary vendor blobs for Huawei MediaPad M2 8.0 (mozart)
+## Proprietary vendor blobs for Huawei MediaPad M2 10.0 (liszt)
 
 ```
 #

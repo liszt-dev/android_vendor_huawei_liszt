@@ -6,7 +6,7 @@
 #
 
 SEARCH_DIR="proprietary"
-OUTPUT_FILE="mozart-vendor.mk"
+OUTPUT_FILE="liszt-vendor.mk"
 
 if [ ! -d "$SEARCH_DIR" ]; then
     echo "The directory $SEARCH_DIR does not exist."
@@ -20,7 +20,7 @@ cat << EOF > "$OUTPUT_FILE"
 # SPDX-License-Identifier: Apache-2.0
 #
 
-VENDOR_PATH := vendor/huawei/mozart/proprietary
+VENDOR_PATH := vendor/huawei/liszt/proprietary
 
 # Blobs
 PRODUCT_COPY_FILES += \\
