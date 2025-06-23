@@ -16,12 +16,12 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/egl/libGLES_mali.so \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/nvram4339_hw.txt \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_hw.bin:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/fw_bcm4339_hw.bin \
+    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_liszt.txt:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/nvram4339_hw_liszt.txt \
     $(VENDOR_PATH)/vendor/firmware/dhd_preinit_config.txt:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/dhd_preinit_config.txt \
     $(VENDOR_PATH)/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402_4spk.img:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/hifi_6402_4spk.img \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402.img:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/hifi_6402.img \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_test_hw_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/fw_bcm4339_test_hw_apsta.bin \
-    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/nvram4339_hw_mozart_l.txt \
     $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_apsta_hw.bin:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/fw_bcm4339_apsta_hw.bin \
     $(VENDOR_PATH)/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd:$(TARGET_COPY_OUT_SYSTEM)/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd \
     $(VENDOR_PATH)/vendor/bin/mac_addr_normalization:$(TARGET_COPY_OUT_SYSTEM)/vendor/bin/mac_addr_normalization \
