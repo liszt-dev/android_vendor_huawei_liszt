@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo.so \
     $(VENDOR_PATH)/lib64/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtfa9895.so \
     $(VENDOR_PATH)/lib64/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     $(VENDOR_PATH)/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_custom.so \
@@ -48,6 +49,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libomx_vxd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxd.so \
     $(VENDOR_PATH)/lib64/libmax98925.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmax98925.so \
     $(VENDOR_PATH)/lib64/libteec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteec.so \
+    $(VENDOR_PATH)/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     $(VENDOR_PATH)/lib64/libnvme.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnvme.so \
     $(VENDOR_PATH)/lib64/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo_jni.so \
     $(VENDOR_PATH)/lib/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo.so \
